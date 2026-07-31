@@ -10,9 +10,15 @@
   </p>
 
   <p align="center">
+    <a href="https://stroke-guard.streamlit.app/">
+      <img src="https://img.shields.io/badge/🔴_Live_Demo-Click_Here-FF4B4B?style=for-the-badge" alt="Live Demo">
+    </a>
+  </p>
+
+  <p align="center">
     <a href="#"><img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
     <a href="#"><img src="https://img.shields.io/badge/Streamlit-1.30+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"></a>
-    <a href="#"><img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
+    <a href="https://stroke-guard.streamlit.app/"><img src="https://img.shields.io/badge/Deployed_on-Streamlit_Cloud-black?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit Cloud"></a>
     <a href="#"><img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status"></a>
   </p>
 </div>
@@ -68,17 +74,18 @@ StrokeGuard is built with modern, scalable technologies to ensure a robust user 
 
 ---
 
-## 🌐 Deployment (Vercel / Cloud)
+## 🌐 Deployment (Streamlit Community Cloud)
 
-This project is fully optimized for cloud deployment and runs smoothly on platforms like **Vercel** or **Streamlit Community Cloud**.
+This project is fully optimized for cloud deployment and runs smoothly on **Streamlit Community Cloud**.
 
-Since the application requires no database and handles everything statelessly via machine learning models and dynamic rendering, deployment is as simple as linking your repository to your hosting provider.
+Since the application requires no database and handles everything statelessly via machine learning models and dynamic rendering, deployment is as simple as linking your repository to Streamlit Cloud.
 
-### Steps to Deploy on Vercel:
-1. Connect your GitHub repository to Vercel.
-2. Select **Python** as the framework (or leave it as standard if using `vercel.json`).
-3. Set the build command to install `requirements.txt`.
-4. Deploy! The app will automatically spin up the Streamlit server.
+### Steps to Deploy on Streamlit Cloud:
+1. Go to [share.streamlit.io](https://share.streamlit.io/).
+2. Connect your GitHub repository and select the **StrokeGuard** repo.
+3. In Advanced Settings, select **Python 3.12**.
+4. Set the Main file path to `StrokeGuard_App/app.py`.
+5. Click **Deploy!**
 
 *(Note: No local installation or localhost configuration is required to use the deployed version.)*
 
